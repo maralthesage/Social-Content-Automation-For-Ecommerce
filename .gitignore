@@ -1,0 +1,10 @@
+.venv/
+.DS_Store
+*.jpg
+*.txt
+*.csv
+*.json
+
+
+
+
