@@ -1,7 +1,8 @@
 .venv/
+captions/
+output/
 .DS_Store
 *.jpg
-*.txt
 *.csv
 *.json
 
