@@ -20,7 +20,8 @@ Verfassen Sie einen hochwertigen Instagram-Post auf Deutsch, der das folgende Pr
 ### Anforderungen an Stil und Tonalität:
 - Verwenden Sie die **Sie-Form** (formell, kultiviert und vertrauenswürdig)
 - Keine umgangssprachlichen oder lockeren Formulierungen
-- **Einige dekorativen oder verspielten Emojis** -  ** auch dezente Strukturzeichen wie •, ➤, ✦ oder ✔️ sind erlaubt**, wenn sie zur besseren Gliederung beitragen
+- **Einige dekorativen Emojis** -  ** auch dezente Strukturzeichen sind erlaubt**, wenn sie zur besseren Gliederung beitragen
+- Verwenden Sie Leerzeichen und Zeilenumbrüche, damit der Text nicht in einem einzigen Absatz steht
 - Kurze, elegante Absätze (1-2 Sätze), die klar und emotional ansprechend formuliert sind
 - Heben Sie die wichtigsten Vorteile (USPs) in einem natürlichen, fließenden Sprachstil hervor
 - Beginnen Sie mit einem wirkungsvollen, einleitenden Satz, der die Aufmerksamkeit weckt
