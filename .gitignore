@@ -1,5 +1,6 @@
 .venv/
 captions/
+Archive/
 output/
 .DS_Store
 *.jpg

@@ -1,4 +1,7 @@
 requests
 subprocess
 python-csv
+pandas
+ollama
+
 
