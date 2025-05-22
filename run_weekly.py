@@ -94,7 +94,8 @@ def is_seasonally_relevant(row):
 
 def convert_csv_to_excel_and_copy(csv_path, excel_path):
     df = pd.read_csv(csv_path, sep=";", encoding="utf-8")
-    df.to_excel(excel_path, index=False, engine='xlsxwriter')
+    with pd.ExcelWriter(excel_path, mode='a',engine='xlsxwriter') as writer:
+        df.to_excel(writer,index=False)
     print(f"✅ Excel file saved: {excel_path}")
 
 def prepare_multiple_products(limit=7):
