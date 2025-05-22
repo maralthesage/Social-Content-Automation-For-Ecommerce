@@ -75,7 +75,7 @@ def append_to_approvals_csv(product_id, titel, description, caption_path, image_
     needs_header = not os.path.exists(PENDING_APPROVALS_CSV) or os.stat(PENDING_APPROVALS_CSV).st_size == 0
 
     # Append to CSV using ';' as delimiter
-    with open(PENDING_APPROVALS_CSV, "a", newline="", encoding='utf-8') as f:
+    with open(PENDING_APPROVALS_CSV, "w", newline="", encoding='utf-8') as f:
         writer = csv.writer(f, delimiter=";")
         writer.writerow([product_id, titel, description, caption, image_urls, "FALSE"])
 
