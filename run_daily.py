@@ -146,7 +146,7 @@ def prepare_multiple_products(limit=7):
 
 if __name__ == "__main__":
     csv_path = "data/pending_approvals.csv"
-    excel_path = "/Users/maralsheikhzadeh/Library/CloudStorage/OneDrive-SharedLibraries-HagenGroteGmbH/Teamwebsite - social_media_posts/pending_approvals.xlsx"
+    excel_path = secrets['sharepoint']
 
     prepare_multiple_products(limit=7)
     convert_csv_to_excel_and_copy(csv_path, excel_path)
