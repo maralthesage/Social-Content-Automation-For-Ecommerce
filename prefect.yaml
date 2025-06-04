@@ -1,0 +1,16 @@
+name: recipe-posting-project
+prefect-version: ">=2.0"
+
+flows:
+  - name: post_recipe_flow
+    entrypoint: rezept_automation.py:post_recipe_flow
+
+deployments:
+  - name: weekly-recipe
+    flow_name: post_recipe_flow
+    schedule:
+      cron: "0 10 * * 0"  # Every Sunday at 10:00 AM
+      timezone: "Europe/Berlin"
+    work_queue_name: default
+    tags: [instagram, weekly]
+    parameters: {}
